@@ -5,6 +5,11 @@ export const MovieListType = Object.freeze({
   upcoming: "upcoming",
 });
 
+export const MovieListLayout = Object.freeze({
+  grid: "grid",
+  row: "row",
+});
+
 export const globalConfig = {
   notAvailableValue: "(No disponible)",
   defaultMovieListType: MovieListType.nowPlaying,

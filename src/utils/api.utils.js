@@ -30,7 +30,7 @@ export function getMovieSearchUrl(query, page = 1) {
   let movieSearchUrl = apiConfig.baseUrl;
   movieSearchUrl += `search/movie`;
   movieSearchUrl += `?query=${query}`;
-  movieSearchUrl += `language=${apiConfig.langIso}`;
+  movieSearchUrl += `&language=${apiConfig.langIso}`;
   movieSearchUrl += `&page=${page}`;
   movieSearchUrl += `&api_key=${apiConfig.apiKey}`;
 
